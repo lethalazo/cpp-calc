@@ -98,9 +98,10 @@ class Calculator
 						}
 						toCalc.erase(toCalc.begin()+i); //erases the current and previous strings so that only the evluated result is left
 						toCalc.erase(toCalc.begin()+(i-1));
+						i--; //decrement the loop counter to compensate the vector size
 					}
 				}
-				opIndex = opIndex + 1; //increments the operator priority index and recurs
+				opIndex++; //increments the operator priority index and recurs
 				applyDMAS();
 			}
 			return toCalc.at(0); //returns the evaluated result
