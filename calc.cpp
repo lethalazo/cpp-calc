@@ -3,7 +3,7 @@ Implementation of a basic string evaluator/calculator.
 Works on the DMAS principle, supports negative numbers and powers. Parentheses not supported.
 
 @author Arsalan Azmi
-@version 1.1, 17th Feb 2019
+@version 1.2, 17th Feb 2019
 */
 
 #include <iostream>
