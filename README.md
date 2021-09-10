@@ -1,2 +1,2 @@
 # cpp-calc
-Basic string calculator implementation in C++
+Efficient string calculator with error handling and DMAS principle.
